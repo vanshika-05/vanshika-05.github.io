@@ -1,0 +1,124 @@
+.heading{
+  font-size: 20px;
+}
+
+.list-heading{
+  margin-left: 400px;
+  margin-right: 400px;
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.card{
+    box-shadow: 3px 3px 3px 3px #888888;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+li {
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.title{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button-style{
+  background-color: #2ECAB6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #fff;
+   box-shadow: 3px 3px 3px 3px #888888;
+  border-radius: 50px;
+
+}
+
+/* TOOGLE */
+
+.onoffswitch {
+    position: relative; width: 155px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #888888; border-radius: 19px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 33px; padding: 0; line-height: 33px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Available";
+    padding-left: 25px;
+    background-color: #12E63C; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Not Available";
+    padding-right: 25px;
+    background-color: #EB1D1D; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 7.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 118px;
+    border: 2px solid #888888; border-radius: 19px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+
+/* MOBILE RESPONSIVE */
+
+.mob-title{
+  font-size: 40px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mob-item {
+    margin-left: 110px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+
+
+
+/* @media  query { */
+
+
+
+@media  (max-width:1100px) {
+  .desktop-display{
+    display: none;
+  }
+}
+
+
+@media  (min-width:1099px) {
+  .mobile-display{
+    display: none;
+  }
+}
